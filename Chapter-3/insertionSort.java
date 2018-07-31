@@ -1,6 +1,6 @@
 /*
 	Solution for Programming Projects
-	3.2, 3.3
+	3.2, 3.3, 3.6
 */
 
 class ArrayIns {
