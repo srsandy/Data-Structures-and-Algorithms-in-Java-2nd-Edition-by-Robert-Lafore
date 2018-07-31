@@ -1,5 +1,6 @@
 /*
-	Solution By: Sandeep Ranjan (1641012352)
+	Solved By: Sandeep Ranjan (1641012352)
+	
 	Solution for Programming Projects
 	3.1, 3.4
 */
