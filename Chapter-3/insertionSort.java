@@ -2,7 +2,7 @@
 	Solved By: Sandeep Ranjan (1641012352)
 
 	Solution for Programming Projects
-	3.2, 3.3, 3.6
+	3.2, 3.3, 3.5, 3.6
 */
 
 class ArrayIns {
@@ -40,59 +40,34 @@ class ArrayIns {
 
 		} 
 	}
-
-	private void swap(int one, int two) {
-		long temp = a[one];
-		a[one] = a[two];
-		a[two] = temp;
-
-	}
-
+	
 	public long median() {
 		insertionSort();
 
-		int n = nElems - 1;
+		int n = nElems;
  		
         if (n % 2 != 0)
-        return a[n / 2];
+        	return a[n / 2];
      
         return (a[(n - 1) / 2] + a[n / 2]) / 2;
 	}			  
-
-	
 
 	public void noDups() {
    		insertionSort();
 
    		int nDel = 0;
-   		long comp = a[0];
+   		for (int i=0, j=1; j<nElems; j++) {
 
-   		for (int i=1; i<nElems; i++) {
-
-	   		if (a[i]==comp) {
-	   			a[i]=-1;
+	   		if (a[i]==a[j]) {
 	   			nDel++;
-	   		} else { 
-	   			comp = a[i];
+	   		} else {
+	   			i++;
+	   			a[i] = a[j]; 
 	   		}
 
    		}
-
-	   	for (int i=0; i<nElems;i++) {
-
-	   		if (a[i] == -1) {
-	   			int j=i+1;
-	   			
-	   			while(a[j] == -1) {
-	   				j++;
-	   			}
-
-	   			a[i]=a[j];
-	   			a[j]=-1;
-	   		}
-	   	}
-
-	   	nElems -= nDel;
+   		
+	    nElems -= nDel;
    }
 
     public void insertionSort_and_noDups() {
@@ -126,7 +101,33 @@ class ArrayIns {
 
 		nElems -= nDups;
    }
-
+   
+  	public void nCopies_nComp() {
+	  	int in, out;
+		int nComp = 0;
+		int nCopies = 0;
+		
+		for(out=1; out<nElems; out++) {
+			long temp = a[out];
+			in = out;
+			nCopies++;
+			
+			while(in>0 && a[in-1] >= temp) {
+				a[in] = a[in-1];
+				nComp++;
+				nCopies++;
+				--in;
+			}
+			
+			nComp++;
+			
+			a[in] = temp;
+			nCopies++;
+			
+		} 
+		
+		System.out.println("Comp: "+ nComp + " Copies: " +nCopies);
+  	} 
 }
 
 class insertionSort {
@@ -134,24 +135,24 @@ class insertionSort {
 		int maxSize = 100;
 		ArrayIns arr = new ArrayIns(maxSize);
 
-		arr.insert(77);
-		arr.insert(99);
-		arr.insert(44);
-		arr.insert(55);
-		arr.insert(22);
-		arr.insert(88);
-		arr.insert(11);
-		arr.insert(00);
-		arr.insert(33);
-		arr.insert(33);
+		arr.insert(12);
+		arr.insert(14);
+		arr.insert(20);
+		arr.insert(30);
+		arr.insert(4);
+		arr.insert(67);
+		arr.insert(10);
+		arr.insert(23);
+		arr.insert(40);
+		arr.insert(1); 
 
-		// arr.display();
+		arr.display();
 
 		// arr.insertionSort();
 
-		// System.out.println(arr.median());
-		arr.display();
-		arr.insertionSort_and_noDups();
+		// System.out.println("Median: " + arr.median());
+		
+		//arr.nCopies_nComp();
 
 	}
 }
