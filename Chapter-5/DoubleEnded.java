@@ -91,6 +91,9 @@ class DoubleEnded {
 	public void deleteEnd() {
 		if(start == null) {
 			System.out.println("linkedlist Empty");
+		} else if(start.link == null) {
+			start = null;
+			length = 0;
 		} else {
 			Node n = start;
 
