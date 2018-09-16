@@ -1,80 +1,72 @@
 class Queue {
+  private
+	int max,rear,front;
+	int[] a;
+	
+  public
+	Queue(int m) {
+	  max = m;
+	  a = new int[m];
+	  rear = front = -1;
+	}
+	
+	void insert(int val) {
+	  if(isFull()) {
+	    System.out.println("overflow");
+	  } else {
+	    if(isEmpty()) {
+	      front = rear = 0;
+          a[rear] = val;
+	    } else {
+	      rear++;
+	      a[rear] = val;
+	    }
+	  }
+	}
+	
+	void display() {
+	  for(int i=front; i<=rear; i++) {
+	    System.out.print(a[i] + " ");
+	  }
+	  System.out.println();
+	}
 
-   private int maxSize;
-   private long[] queArray;
-   private int front;
-   private int rear;
-   private int nItems;
+	boolean isFull() {
+		if(rear == max -1) return true;
+		else return false;
+	}
 
-   public Queue(int s) {
-      maxSize = s;
-      queArray = new long[maxSize];
-      front = 0;
-      rear = -1;
-      nItems = 0;
-   }
+	boolean isEmpty() {
+		if(rear == -1)  return true;
+		else return false;
+	}
 
-   public void insert(long j) {
-      if(rear == maxSize-1)         
-         rear = -1;
-
-      queArray[++rear] = j;        
-      nItems++;                    
-   }
-
-   public long remove() {
-      long temp = queArray[front++]; 
-
-      if(front == maxSize)          
-         front = 0;
-
-      nItems--;                     
-      return temp;
-   }
-
-   public long peekFront() {
-      return queArray[front];
-   }
-
-   public boolean isEmpty() {
-      return (nItems==0);
-   }
-
-   public boolean isFull() {
-      return (nItems==maxSize);
-   }
-
-   public int size() {
-      return nItems;
-   }
-
+	int delete() {
+		if(isEmpty()) {
+			System.out.println("Underflow");
+			return -1;
+		} else {
+			int temp = a[front];
+			front++;
+			return temp;
+		}
+	}
 }
 
 class QueueApp {
-   public static void main(String[] args) {
-      Queue theQueue = new Queue(5);
+  public
+	static void main(String[] agrs) {
+	  Queue q = new Queue(10);
+	  q.insert(10);
+	  q.insert(20);
+	  q.insert(30);
+	  q.insert(40);
+	  q.insert(50);
+	  q.insert(60);
+	  q.display();
 
-      theQueue.insert(10);          
-      theQueue.insert(20);
-      theQueue.insert(30);
-      theQueue.insert(40);
+	  q.delete();
+	  q.display();
 
-      theQueue.remove();            
-      theQueue.remove();            
-      theQueue.remove();
-
-      theQueue.insert(50);          
-      theQueue.insert(60);          
-      theQueue.insert(70);
-      theQueue.insert(80);
-
-      while( !theQueue.isEmpty() ) {                          
-         long n = theQueue.remove();
-         System.out.print(n);
-         System.out.print(" ");
-      }
-
-      System.out.println("");
-   }
+	}
 }
-
