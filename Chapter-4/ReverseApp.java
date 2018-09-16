@@ -1,33 +1,50 @@
-class StackX {
+import java.util.Scanner;
 
-   private int maxSize;        
-   private long[] stackArray;
-   private int top;           
+class Stack {
+   private Character[] a;
+   private int ele;
+   private int size;
 
-   public StackX(int s) {
-      maxSize = s;      
-      stackArray = new long[maxSize];
-      top = -1;                
+   public Stack(int size) {
+      a = new Character[size];
+      this.size = size;
+      ele = -1;
    }
 
-   public void push(long j) {
-      stackArray[++top] = j;
+   public void push(Character ch) {
+      if (isFull()) {
+         System.out.println("Stack is Full");
+      } else {
+         ele++;
+         a[ele] = ch;
+      }
    }
 
-   public long pop() {
-      return stackArray[top--];
-   }
-
-   public long peek() {
-      return stackArray[top];
+   public Character pop() {
+      if (isEmpty()) {
+         System.out.println("Stack is Empty");
+         return '\0';
+      } else {
+         Character ch = a[ele];
+         ele--;
+         return ch;
+      }
    }
 
    public boolean isEmpty() {
-      return (top == -1);
+      if(ele == -1) return true;
+      else return false;
    }
 
    public boolean isFull() {
-      return (top == maxSize-1);
+      if(ele == size - 1) return true;
+      return false;
+   }
+
+   public void display() {
+      for(int i=0; i<=ele; i++) 
+         System.out.print(a[i] + " ");
+      System.out.println();
    }
 }
 
@@ -41,7 +58,7 @@ class Reverser {
 
    public String doRev() {
       int stackSize = input.length();
-      StackX theStack = new StackX(stackSize);
+      Stack theStack = new Stack(stackSize);
 
       for(int j=0; j<input.length(); j++) {
          char ch = input.charAt(j);     
@@ -60,30 +77,22 @@ class Reverser {
 }
 
 class ReverseApp {
-   public static void main(String[] args) throws IOException {
+   public static void main(String[] args) {
       String input, output;
+
+      Scanner sc = new Scanner(System.in);
       
-      while(true) {
-         System.out.print("Enter a string: ");
-         System.out.flush();
-         input = getString();
+      System.out.println("Enter a string: ");
+      input = sc.nextLine();
 
-         if( input.equals("") ) break;
-
+      if( input == "" ) {
+         System.out.println("");  
+      } else {
          Reverser theReverser = new Reverser(input);
-
          output = theReverser.doRev(); 
-
          System.out.println("Reversed: " + output);
-      } 
+      }
    } 
-
-   public static String getString() throws IOException {
-      InputStreamReader isr = new InputStreamReader(System.in);
-      BufferedReader br = new BufferedReader(isr);
-      String s = br.readLine();
-      return s;
-   }
 }  
 
 
