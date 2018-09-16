@@ -1,3 +1,10 @@
+/*
+	Solved By: Sandeep Ranjan (1641012352)
+	
+	Solution for Programming Project
+	4.1
+*/
+
 class CirQueue {
   	private
 		int max,rear,front;
@@ -23,6 +30,8 @@ class CirQueue {
 			}
 	  	}
 	}
+
+	//Programmming Project 4.1
 	
 	void display() {
 		int i;
@@ -32,6 +41,8 @@ class CirQueue {
 		System.out.print(a[i] + " ");
 		System.out.println();
 	}
+
+	//------------------------
 
 	boolean isFull() {
 		if(front == (rear+1)%max) return true;
