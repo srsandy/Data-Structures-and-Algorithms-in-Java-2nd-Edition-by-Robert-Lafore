@@ -150,7 +150,7 @@ class Checkout {
 	}
 }
 
-class CheckutApp {
+class CheckOutApp {
 	public static void main(String[] args) {
 		int nLines = 1; // Total no of Line
 		int maxLineLength = 3; // Total no of customers allowed in the line
