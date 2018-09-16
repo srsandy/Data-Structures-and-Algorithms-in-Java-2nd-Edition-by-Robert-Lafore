@@ -40,12 +40,6 @@ class Stack {
       if(ele == size - 1) return true;
       return false;
    }
-
-   public void display() {
-      for(int i=0; i<=ele; i++) 
-         System.out.print(a[i] + " ");
-      System.out.println();
-   }
 }
 
 class Reverser {
