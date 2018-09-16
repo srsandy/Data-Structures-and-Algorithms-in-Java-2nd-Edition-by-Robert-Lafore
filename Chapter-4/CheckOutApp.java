@@ -114,8 +114,6 @@ class Checkout {
          	}
 	   }
 
-	   System.out.println("shortestLine" + shortestLine);
-
 	   // Add the Customer to the Shortest Line
 	   
 	   Random rand = new Random();
