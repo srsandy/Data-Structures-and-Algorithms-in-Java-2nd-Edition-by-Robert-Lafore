@@ -59,9 +59,13 @@ class CirQueue {
 			System.out.println("Underflow");
 			return -1;
 		} else {
-
 			int temp = a[front];
-			front = (front+1)%max;
+			if(rear==front) {
+   				rear = -1;
+   				front = -1;
+   			} else {
+   				front = (front+1)%max;
+   			}
 			return temp;
 		}
 	}
@@ -75,12 +79,20 @@ class CircularQueue {
 		q.insert(30);
 		q.insert(40);
 		q.insert(50);
-		q.insert(60);
 		q.display();
 
+		q.delete(); //10
+		q.display();
+
+		q.delete(); //20
+		q.display();
+
+		q.delete(); //30
+		q.display();
+
+		q.delete(); //40
 		q.delete();
-		q.delete();
-		q.delete();
+
 		q.insert(60);
 		q.insert(70);
 		q.insert(80);
