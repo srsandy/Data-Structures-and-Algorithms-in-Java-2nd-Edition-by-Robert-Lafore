@@ -1,47 +1,60 @@
-class StackX {
+class Stack {
+   private int[] a;
+   private int ele;
+   private int size;
 
-   private int maxSize;        
-   private long[] stackArray;
-   private int top;           
-
-   public StackX(int s) {
-      maxSize = s;      
-      stackArray = new long[maxSize];
-      top = -1;                
+   public Stack(int size) {
+      a = new int[size];
+      this.size = size;
+      ele = -1;
    }
 
-   public void push(long j) {
-      stackArray[++top] = j;
+   public void push(int val) {
+      if (isFull()) {
+         System.out.println("Stack is Full");
+      } else {
+         ele++;
+         a[ele] = val;
+      }
    }
 
-   public long pop() {
-      return stackArray[top--];
-   }
-
-   public long peek() {
-      return stackArray[top];
+   public int pop() {
+      if (isEmpty()) {
+         System.out.println("Stack is Empty");
+         return -1;
+      } else {
+         int val = a[ele];
+         ele--;
+         return val;
+      }
    }
 
    public boolean isEmpty() {
-      return (top == -1);
+      if(ele == -1) return true;
+      else return false;
    }
 
    public boolean isFull() {
-      return (top == maxSize-1);
+      if(ele == size - 1) return true;
+      return false;
    }
 
+   public void display() {
+      for(int i=0; i<=ele; i++) 
+         System.out.print(a[i] + " ");
+      System.out.println();
+   }
 }
-
 class StackApp {
    public static void main(String[] args) {
-      StackX theStack = new StackX(10);  
+      Stack theStack = new Stack(10);  
       theStack.push(20);               
       theStack.push(40);
       theStack.push(60);
       theStack.push(80);
 
       while( !theStack.isEmpty() ) {                             
-         long value = theStack.pop();
+         int value = theStack.pop();
          System.out.print(value);  
          System.out.print(" ");
       }
