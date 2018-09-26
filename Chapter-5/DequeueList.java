@@ -52,6 +52,8 @@ class DoubleLinklist {
 	public void deleteBeg() {
 		if(start == null) {
 			System.out.println("List Empty");
+		} else if(start == end) {
+			start = end = null;
 		} else {
 			Node temp = start;
 			start = start.fLink;
@@ -63,22 +65,28 @@ class DoubleLinklist {
 	public void deleteEnd() {
 		if(start == null) {
 			System.out.println("List Empty");
+		} else if(start == end) {
+			start = end = null;
 		} else {
 			Node temp = end;
 			end = end.bLink;
-			end.bLink = null;
+			end.fLink = null;
 			temp.bLink = null;
 		}
 	}
 
 	public void display() {
 		Node n = start;
-		while(n.fLink != null) {
-			System.out.print(n.data + " -> ");
-			n = n.fLink;
+		if(start != null) {
+			while(n.fLink != null) {
+				System.out.print(n.data + " -> ");
+				n = n.fLink;
+			}
+			System.out.print(n.data + " ");
+			System.out.println();
+		} else {
+			System.out.println("List Empty");	
 		}
-		System.out.print(n.data + " ");
-		System.out.println();
 	}
 }
 
@@ -117,13 +125,22 @@ class DequeueList {
 		dq.insertFront(10);
 		dq.insertFront(20);
 		dq.insertRear(5);
-		dq.display();
+		dq.display(); // 20 -> 10 -> 5
 
 
 		dq.deleteFront();
 		dq.deleteFront();
-		dq.display();
+		dq.deleteFront();
+		dq.display(); // List Empty
 
+		dq.insertRear(5);
+		dq.insertRear(15);
+		dq.insertRear(25);
+		dq.display(); // 5 -> 15 -> 25
 
+		dq.deleteRear();
+		dq.deleteRear();
+		dq.deleteRear();
+		dq.display(); // List Empty
 	}
 }

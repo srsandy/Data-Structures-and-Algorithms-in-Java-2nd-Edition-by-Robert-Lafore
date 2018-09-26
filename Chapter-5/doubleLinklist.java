@@ -83,7 +83,6 @@ class DoubleLinklist {
 		if(start == null) {
 			System.out.println("list empty");
 		} else {
-			Node n = start;
 			start = n.fLink;
 			start.bLink = null;
 		}
