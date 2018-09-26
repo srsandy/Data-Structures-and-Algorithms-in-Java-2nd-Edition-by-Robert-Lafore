@@ -160,9 +160,6 @@ class SingleEnded {
 		sl.display();
 		sl.deletePos(2);
 		sl.display();
-
-
-
 	}
 
 }
