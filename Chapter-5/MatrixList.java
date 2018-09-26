@@ -48,10 +48,10 @@ class Row {
 class Matrix {
 	private int n; //row
 	private int m; //col
-	Row[] r;
-	Node start;
+	private Row[] r;
+	private Node start;
 
-	Matrix(int n, int m) {
+	public Matrix(int n, int m) {
 		this.n = n;
 		this.m = m;
 		start = null;
