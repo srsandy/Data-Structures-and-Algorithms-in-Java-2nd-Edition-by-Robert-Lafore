@@ -13,7 +13,7 @@ class DoubleLinklist {
 	private Node start;
 	private int length;
 
-	doubleLinklist() {
+	DoubleLinklist() {
 		this.start = null;
 		this.length = 0;
 	}

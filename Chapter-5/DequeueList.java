@@ -19,7 +19,7 @@ class DoubleLinklist {
 	private Node start;
 	private Node end;
 
-	doubleLinklist() {
+	DoubleLinklist() {
 		this.start = this.end = null;
 	}
 
@@ -78,6 +78,7 @@ class DoubleLinklist {
 			n = n.fLink;
 		}
 		System.out.print(n.data + " ");
+		System.out.println();
 	}
 }
 
@@ -87,10 +88,42 @@ class DeQueue {
 	public DeQueue() {
 		dll = new DoubleLinklist();
 	}
+
+	public void insertFront(int data) {
+		dll.insertBeg(data);
+	}
+
+	public void insertRear(int data) {
+		dll.insetEnd(data);
+	}
+
+	public void deleteFront() {
+		dll.deleteBeg();
+	}
+
+	public void deleteRear() {
+		dll.deleteEnd();
+	}
+
+	public void display() {
+		dll.display();
+	}
 }
 
 class DequeueList {
 	public static void main(String[] args) {
-		
+		DeQueue dq = new DeQueue();
+
+		dq.insertFront(10);
+		dq.insertFront(20);
+		dq.insertRear(5);
+		dq.display();
+
+
+		dq.deleteFront();
+		dq.deleteFront();
+		dq.display();
+
+
 	}
 }
