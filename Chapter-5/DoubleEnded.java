@@ -161,9 +161,6 @@ class DoubleEnded {
 		// sl.display();
 		// sl.deletePos(2);
 		// sl.display();
-
-
-
 	}
 
 }

@@ -149,7 +149,5 @@ class DoubleLinklist {
 		System.out.println();
 
 		dl.displayBackward(); // 2 <- 10 <- 20
-
-
 	}
 }
