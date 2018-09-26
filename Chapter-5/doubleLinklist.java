@@ -9,7 +9,7 @@ class Node {
 	}
 }
 
-class doubleLinklist {
+class DoubleLinklist {
 	private Node start;
 	private int length;
 
