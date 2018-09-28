@@ -13,11 +13,22 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
 - [**Chapter-3**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-3)
   - [**Bubble Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java)
   - [**Insertion Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java)
-  - [**Selection Sort**]
+  - [**Selection Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/selectionSort.java)
   - Programming Practice
     [**3.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java) [**3.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java) [**3.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java)
     
 - [**Chapter-4**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-4)
+  - [**Stack**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/StackApp.java)
+  - [**Reversing a Word**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/ReverseApp.java)
+  - [**Delimiter Matching**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/BracketsApp.java)
+  - [**Queue**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/QueueApp.java)
+  - [**Circular Queue**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CircularQueue.java)
+  - [**Deque**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/DeQueueApp.java)
+  - [**Priority Queues**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/PriorityQueue.java)
+  - [**Infix to Postfix**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/infixPostfix.java)
+  - Programming Practice
+    [**4.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CircularQueue.java) [**4.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CircularDeque.java) [**4.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/DeQueueApp.java) [**4.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/PriorityQueue.java) [**4.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CheckOutApp.java)
+  
 - [**Chapter-5**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-5)
 - [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
 
