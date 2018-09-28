@@ -5,7 +5,12 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
 
 # Index
   - [**Chapter-2**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-2)
-  - [**Chapter-3**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-3)
+    - [**HighArray**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java)
+    - [**OrderedArray**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/orderedArray.java)
+    - Programming Practice
+      [**2.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java) [**2.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java) [**2.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java) [**2.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/orderedArray.java) [**2.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/orderedArray.java) [**2.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java)
+      
+- [**Chapter-3**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-3)
   - [**Chapter-4**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-4)
   - [**Chapter-5**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-5)
   - [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
