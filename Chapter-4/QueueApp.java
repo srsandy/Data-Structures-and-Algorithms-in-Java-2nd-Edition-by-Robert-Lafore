@@ -47,7 +47,12 @@ class Queue {
 				return -1;
 			} else {
 				int temp = a[front];
-				front++;
+				if(rear==front) {
+   					rear = -1;
+   					front = -1;
+   				} else {
+   					front++;	
+   				}
 				return temp;
 			}
 		}
