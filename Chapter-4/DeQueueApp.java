@@ -39,7 +39,7 @@ class DeQueue {
 				  	front = rear = 0;
 				  	a[front] = val;
 				} else {
-			  		front++;
+			  		front--;
 			  		a[front] = val;
 				}
 			}
@@ -92,20 +92,31 @@ class DeQueue {
 
 class DeQueueApp {
   public static void main(String[] agrs) {
-		DeQueue q = new DeQueue(10);
+		DeQueue q = new DeQueue(5);
 		q.insertFront(10);
 		q.insertRear(20);
 		q.insertRear(30);
 		q.insertRear(40);
 		q.insertRear(50);
 		q.insertRear(60);
+
+		q.deleteFront();
+		q.deleteFront();
+
 		q.deleteRear();
 		q.deleteFront();
+
+		q.insertFront(10);
+		q.insertFront(20);
+		q.insertFront(80);
+		q.insertFront(70);
+		q.insertRear(60);
 		q.display();
+
 	}
 }
 
-// Project 4.3
+Project 4.3
 
 class StackY {
 	private DeQueue dequeStack;
@@ -139,4 +150,4 @@ class StackYApp {
 	}
 }
 
-//--------------------------
+--------------------------

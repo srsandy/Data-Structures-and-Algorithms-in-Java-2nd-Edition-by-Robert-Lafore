@@ -25,7 +25,7 @@ class PQueue {
     }
 
     public boolean isEmpty() {
-        if(rear == -1)  return true;
+        if(rear == -1 )  return true;
         else return false;
     }
 
@@ -43,7 +43,7 @@ class PQueue {
     }
 
     //(Insert Slow and Delete Fast)
-    /*
+    
 
     public void insert(int val) {
         if(isFull()) {
@@ -74,61 +74,65 @@ class PQueue {
             return -1;
         } else {
             int ele = a[rear];
-            rear--;
+            if(front == rear) {
+                front = rear =  -1;
+            } else {
+                rear--;
+            }
             return ele;
         }
     }
 
-     */
+       
     
 
     // Project 4.4 (Insert Fast and Delete Slow)
 
-    public void insert(int val) {
-        if(isFull()) {
-            System.out.println("Overflow");
-        } else {
-            if(isEmpty()) {
-                front = rear = 0;
-                a[rear] = val;
-            } else {
-                rear++;
-                a[rear] = val;
-            }
-        }
-    }
+    // public void insert(int val) {
+    //     if(isFull()) {
+    //         System.out.println("Overflow");
+    //     } else {
+    //         if(isEmpty()) {
+    //             front = rear = 0;
+    //             a[rear] = val;
+    //         } else {
+    //             rear++;
+    //             a[rear] = val;
+    //         }
+    //     }
+    // }
 
-    public int delete() {
-        if(!isEmpty()) {
-            if(rear == front) {
-                int ele = a[rear];
-                rear = front = -1;
+    // public int delete() {
+    //     if(!isEmpty()) {
+    //         if(rear == front) {
+    //             int ele = a[rear];
+    //             rear = front = -1;
                 
-                return ele;
-            } else {              //find minimum
-                int pos = 0;
-                int min = a[0];
+    //             return ele;
+    //         } else {              //find minimum
+    //             int pos = 0;
+    //             int min = a[0];
 
-                for(int i=0; i<rear; i++) {
-                    if(a[i]<min) {
-                        min = a[i];
-                        pos = i;
-                    }
-                }
+    //             for(int i=0; i<rear; i++) {
+    //                 if(a[i]<min) {
+    //                     min = a[i];
+    //                     pos = i;
+    //                 }
+    //             }
 
-                for(int i=pos; i<rear; i++) {
-                    a[i] = a[i+1];
-                }
+    //             for(int i=pos; i<rear; i++) {
+    //                 a[i] = a[i+1];
+    //             }
 
-                max--;
-                rear--;
-                return min;
-            }
-        } else {
-            System.out.println("Underflow");
-        }
-        return -1;
-    }
+    //             max--;
+    //             rear--;
+    //             return min;
+    //         }
+    //     } else {
+    //         System.out.println("Underflow");
+    //     }
+    //     return -1;
+    // }
 
     //------------------------------------
 
