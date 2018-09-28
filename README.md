@@ -30,6 +30,13 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
     [**4.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CircularQueue.java) [**4.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CircularDeque.java) [**4.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/DeQueueApp.java) [**4.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/PriorityQueue.java) [**4.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-4/CheckOutApp.java)
   
 - [**Chapter-5**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-5)
+  - [**Linked List**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/SingleEnded.java)
+  - [**Double-Ended List**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/DoubleEnded.java)
+  - [**Sorted List**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/PriorityLinkedlist.java)
+  - [**Doubly Linked List**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/DoubleLinklist.java)
+  - Programming Practice
+    [**5.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/PriorityLinkedlist.java) [**5.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/DequeueList.java) [**5.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/CircularList.java) [**5.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/StackList.java) [**5.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/JosephusProblem.java) [**5.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/MatrixList.java)
+  
 - [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
 
 
