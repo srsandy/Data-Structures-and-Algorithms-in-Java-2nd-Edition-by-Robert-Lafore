@@ -11,9 +11,15 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
       [**2.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java) [**2.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java) [**2.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java) [**2.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/orderedArray.java) [**2.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/orderedArray.java) [**2.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java)
       
 - [**Chapter-3**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-3)
-  - [**Chapter-4**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-4)
-  - [**Chapter-5**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-5)
-  - [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
+  - [**Bubble Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java)
+  - [**Insertion Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java)
+  - [**Selection Sort**]
+  - Programming Practice
+    [**3.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java) [**3.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java) [**3.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java)
+    
+- [**Chapter-4**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-4)
+- [**Chapter-5**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-5)
+- [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
 
 
 
