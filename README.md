@@ -14,6 +14,7 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
   - [**Bubble Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java)
   - [**Insertion Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java)
   - [**Selection Sort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/selectionSort.java)
+  - [**Sorting Objects **](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/Sorting%20Objects.java)
   - Programming Practice
     [**3.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java) [**3.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/bubbleSort.java) [**3.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java) [**3.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-3/insertionSort.java)
     
