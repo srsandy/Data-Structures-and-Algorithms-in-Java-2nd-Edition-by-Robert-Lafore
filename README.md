@@ -38,6 +38,8 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
     [**5.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/PriorityLinkedlist.java) [**5.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/DequeueList.java) [**5.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/CircularList.java) [**5.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/StackList.java) [**5.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/JosephusProblem.java) [**5.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/MatrixList.java)
   
 - [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
+  - Programming Practice
+    [**6.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/RecursiveMultiplication.java)
 
 
 
