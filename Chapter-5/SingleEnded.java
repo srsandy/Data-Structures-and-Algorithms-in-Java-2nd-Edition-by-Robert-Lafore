@@ -6,10 +6,6 @@ class Node {
 		this.data = data;
 		this.link = null;
 	}
-
-	public int getData() {
-		return data;
-	}
 }
 
 class SingleEnded {
