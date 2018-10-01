@@ -6,10 +6,6 @@ class Node {
 		this.data = data;
 		this.link = null;
 	}
-
-	public int getData() {
-		return data;
-	}
 }
 
 class DoubleEnded {
@@ -41,6 +37,7 @@ class DoubleEnded {
 
 		if(start == null) {
 			start = newNode;
+			end = newNode;
 		}else {
 			Node n = end;
 			
