@@ -27,13 +27,13 @@ class BinaryTree
             return; 
   
         /* first recur on left child */
-        printInorder(node.left); 
+        recursiveInorder(node.left); 
   
         /* then print the data of node */
         System.out.print(node.key + " "); 
   
         /* now recur on right child */
-        printInorder(node.right); 
+        recursiveInorder(node.right); 
     }
     
     /* iterative inorder */
