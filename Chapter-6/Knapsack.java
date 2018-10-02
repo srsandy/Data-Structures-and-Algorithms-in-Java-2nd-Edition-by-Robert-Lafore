@@ -1,6 +1,6 @@
 import java.util.Scanner;
-import java.util.ArrayList;
-class Knapsack{
+
+class Knapsack {
     public static int length;
     public static int Knapsack(int weights[],int startPoint,int capacity){
        if(weights[startPoint]==capacity){
