@@ -1,5 +1,5 @@
 /*
- * Solved by Sumeet Kulkarni
+ * Solved by Sumeet Kulkarni (https://github.com/sumeetk321)
  */
 
 class LowArray {
@@ -46,7 +46,7 @@ class lowArrayApp {
 			}
 		}
 		if (j == size) {
-			System.out.println("Can’t find " + searchKey);
+			System.out.println("Canâ€™t find " + searchKey);
 		} else {
 			System.out.println("Found " + searchKey);
 		}
