@@ -74,6 +74,6 @@ class BinaryTree
         tree.recursiveInorder(tree.root); 
   
         System.out.println("\nInorder traversal using iterative method is "); 
-        tree.iterativeInorder(tree.root); 
+        tree.iterativeInorder(tree.root);  
     } 
 } 
