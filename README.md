@@ -5,6 +5,7 @@ Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafor
 
 # Index
   - [**Chapter-2**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-2)
+    - [**LowArray**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/lowArrayApp.java)
     - [**HighArray**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/highArrayApp.java)
     - [**OrderedArray**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-2/orderedArray.java)
     - Programming Practice
