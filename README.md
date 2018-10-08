@@ -1,7 +1,7 @@
 # DSA-in-JAVA
 Data Structures and Algorithms in Java 
 
-Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafore**
+Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafore**](data_structures_and_algorithms_in_javatqw_darksiderg.pdf)
 
 # Index
   - [**Chapter-2**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-2)
