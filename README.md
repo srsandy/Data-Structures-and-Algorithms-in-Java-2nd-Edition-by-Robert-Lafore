@@ -45,7 +45,8 @@ Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafo
   - [**Mergesort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/MergeSort.java)
   - Programming Practice
     [**6.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/RecursiveMultiplication.java)
-
+- [**Chapter-8**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-8)
+  - [**Binary Tree Implementation**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-8/BinaryTreeImplementation.java)
 
 
 ### You like it ?
