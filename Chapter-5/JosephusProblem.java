@@ -97,7 +97,6 @@ class JosephusProblem {
         		cll.move();
       		}
       		cll.delete();
-      		cll.step();
     	}
 	}
 }
