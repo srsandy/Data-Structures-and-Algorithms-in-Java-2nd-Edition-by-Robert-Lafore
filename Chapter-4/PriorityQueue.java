@@ -113,7 +113,7 @@ class PQueue {
     //             int pos = 0;
     //             int min = a[0];
 
-    //             for(int i=0; i<rear; i++) {
+    //             for(int i=0; i<=rear; i++) {
     //                 if(a[i]<min) {
     //                     min = a[i];
     //                     pos = i;
