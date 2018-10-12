@@ -89,6 +89,31 @@ class DoubleLinklist {
 
 		length--;
 	}
+	
+	public void deletePos(int pos) {
+		if(pos < 0) {
+			System.out.println("Pos does not");
+			return;
+		}
+		if(pos == 1)  {
+			deleteBeg();
+		} else if( pos > length) {
+			deleteEnd();
+		} else {
+			int i=1;
+			Node p = start;
+			
+			while( p.fLink != null ) {
+				i++;
+				if( i == pos) break;
+				p = p.fLink;
+			}
+
+			p.fLink.fLink.bLink = p;
+			p.fLink = p.fLink.fLink;
+			length--;
+		}
+	}
 
 	public void deleteEnd() {
 		if(start == null) {
