@@ -54,13 +54,13 @@ class CircularLinklist {
 
 		Node p = current;
 
-		while(p.link != current) {
+		do {
+			p = p.link;
 			if( data == p.data) {
 				found = true;
 				break;
 			}
-			p = p.link;
-		}
+		}while(p != current);
 
 		if(found) {
 			System.out.println("Found");
