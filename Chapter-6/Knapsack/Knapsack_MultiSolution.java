@@ -1,6 +1,6 @@
 /*
     Solved By: Ganesh varma (https://github.com/gane5hvarma)
-    Modification: Sandeep Ranjan (1641012352)
+    Modified By: Sandeep Ranjan (1641012352)
 */
 
 class Knapsack_MultiSolution {
