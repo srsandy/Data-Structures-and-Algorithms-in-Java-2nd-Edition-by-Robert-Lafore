@@ -49,6 +49,8 @@ Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafo
   - [**Knapsack**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Chapter-6/Knapsack)
   - Programming Practice
     [**6.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/RecursiveMultiplication.java) [**6.2**] [**6.3**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-6/NumberPower.java) [**6.4**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-6/Knapsack/Knapsack_OneSolution.java) [**6.5**] 
+    
+- [**Chapter-7**)(https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-7)
 - [**Chapter-8**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-8)
   - [**Binary Tree Implementation**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-8/BinaryTreeImplementation.java)
 
