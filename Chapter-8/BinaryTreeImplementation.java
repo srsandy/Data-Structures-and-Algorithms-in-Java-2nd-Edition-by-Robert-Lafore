@@ -1,98 +1,137 @@
 /*
-Binary Tree Implementation In Java
- */
+    Solved By: vinaypathak07 (https://github.com/vinaypathak07)
+    Modified By: Sandeep Ranjan (1641012352)
+*/
+
 class Node{
     public int data;
     public Node left;
     public Node right;
 
-    //Initializing the Node
     Node(int data){
-        this.data=data;
-        this.left=null;
-        this.right=null;
-    }
-    //Node Creation
-    Node(int data,Node left,Node right){
-        this.data=data;
-        this.left=left;
-        this.right=right;
+        this.data = data;
+        this.left = this.right = null;
     }
 }
+
 class BinaryTree{
     Node root;
 
-    //Getting the Root Node
-    public BinaryTree(int data){
-        root= new Node(data);
+    public BinaryTree(){
+        root = null;
     }
-    //Returning the Root Node
-    public Node getBinaryTree(){
+
+    public Node getRoot(){
         return root;
     }
-    //Adding New Nodes
-    public void addNode(Node newNode, Node root){
-        if(newNode.data>root.data){
-            if(root.right!=null)
-                addNode(newNode,root.right);
-            else
-                root.right=newNode;
-        }
-        else{
-            if(root.left!=null)
-                addNode(newNode,root.left);
-            else
-                root.left=newNode;
+
+
+    // ITERATIVE ADDITION OF NODES
+    public void addNode(int data) {
+        Node newNode = new Node(data);
+
+        if(root == null) {
+            root = newNode;
+        } else {
+            Node p = root;
+
+            while(p != null) {
+
+                if(p.data > data) {
+                    if(p.left == null) {
+                        p.left = newNode;
+                        break;
+                    }
+
+                    p = p.left;
+
+                } else {
+                    if(p.right == null) {
+                        p.right = newNode;
+                        break;
+                    }
+
+                    p = p.right;
+                }
+            }
         }
     }
-    // In Order Traversal
-     public void inOrderPrint(Node root){
-        if(root==null)
+
+
+    // RECURSIVE ADDITION OF NODES
+
+    // public void addNode(Node newNode, Node root) {
+
+    //     if( root == null) {
+    //         this.root = newNode;
+    //         return;
+    //     }
+
+    //     if(newNode.data > root.data){
+    //         if(root.right != null)
+    //             addNode(newNode, root.right);
+    //         else
+    //             root.right = newNode;
+    //     }
+    //     else{
+    //         if(root.left != null)
+    //             addNode(newNode, root.left);
+    //         else
+    //             root.left=newNode;
+    //     }
+    // }
+
+
+
+    public void inOrderPrint(Node root){
+        if(root == null)
             return;
+
         inOrderPrint(root.left);
-        System.out.print(root.data+" | ");
+        System.out.print(root.data + " | ");
         inOrderPrint(root.right);
     }
-    //Pre Order Traversal
-     public void preOrderPrint(Node root){
-        if(root==null)
+
+    public void preOrderPrint(Node root){
+        if(root == null)
             return;
-        System.out.print(root.data+" | ");
+
+        System.out.print(root.data + " | ");
         preOrderPrint(root.left);
         preOrderPrint(root.right);
-     }
-     //Post Order Traversal
-     public void postOrderPrint(Node root){
+    }
+
+    
+    public void postOrderPrint(Node root){
         if(root==null)
             return;
+
         postOrderPrint(root.left);
         postOrderPrint(root.right);
-        System.out.print(root.data+" | ");
-     }
+        System.out.print(root.data + " | ");
+    }
 }
 public class BinaryTreeImplementation{
     public static void main(String[] args){
 
-        //Root Node
-        BinaryTree bt = new BinaryTree(10);
+        int[] nodes = {11,15,18,24,33,8,7,6,9,14,4,1,55,25,17};
+        BinaryST bst = new BinaryST();
 
-        bt.addNode(new Node(2),bt.getBinaryTree());
-        bt.addNode(new Node(1),bt.getBinaryTree());
-        bt.addNode(new Node(11),bt.getBinaryTree());
-        bt.addNode(new Node(13),bt.getBinaryTree());
-        bt.addNode(new Node(3),bt.getBinaryTree());
-        bt.addNode(new Node(12),bt.getBinaryTree());
-        bt.addNode(new Node(14),bt.getBinaryTree());
+
+        for(int i=0; i<nodes.length; i++) {
+            bst.addNode(x[i]);
+            // bst.addNode(new Node(x[i]),bst.getRoot());
+        }
 
         System.out.println(":::::::::::Pre Order Traversal:::::::::::");
-        bt.preOrderPrint(bt.getBinaryTree());
+        bst.preOrderPrint(bst.getRoot());
 
         System.out.println();
         System.out.println(":::::::::::In Order Traversal:::::::::::");
-        bt.inOrderPrint(bt.getBinaryTree());
+        bst.inOrderPrint(bst.getRoot());
 
         System.out.println();
         System.out.println(":::::::::::Post Order Traversal:::::::::::");
-        bt.postOrderPrint(bt.getBinaryTree());
+        bst.postOrderPrint(bst.getRoot());
     }
 }
