@@ -1,3 +1,13 @@
+/*
+Shellsort is based on the insertion sort.
+
+Here’s the problem with the insertion sort. Suppose a small item is on the far right, where the large items should be. 
+To move this small item to its proper place on the left, all the intervening items (between the place where it 
+is and where it should be) must be shifted one space right. This step takes close to N copies, just for one item. 
+Not all the items must be moved a full N spaces, but the average item must be moved N/2 spaces, which takes N times 
+N/2 shifts for a total of (N^2)/2 copies. Thus, the performance of insertion sort is O(N^2)
+*/
+
 class Shell
 { 
     static void printArray(int arr[]) 
