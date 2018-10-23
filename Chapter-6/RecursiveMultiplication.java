@@ -4,7 +4,7 @@
 
     
     Solution for Programming Project
-    6.3
+    6.1
 */
 
 class RecursiveMultiplication {
