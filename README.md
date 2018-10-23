@@ -36,6 +36,7 @@ Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafo
   - [**Sorted List**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/PriorityLinkedlist.java)
   - [**Doubly Linked List**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/DoubleLinklist.java)
   - Programming Practice
+  - [**Reverse DoubleLinkedList**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-5/ReverseDoubleLinkedList.java)
     [**5.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/PriorityLinkedlist.java) [**5.2**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/DequeueList.java) [**5.3**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/CircularList.java) [**5.4**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/StackList.java) [**5.5**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/JosephusProblem.java) [**5.6**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-5/MatrixList.java)
   
 - [**Chapter-6**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-6)
@@ -43,8 +44,11 @@ Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafo
   - [**BinarySearch**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/BinarySearch.java)
   - [**Factorial**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/Factorial.java)
   - [**Mergesort**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/MergeSort.java)
+  - [**Tower of Hanoni**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-6/TowerHanoi.java)
+  - [**Triangular Number**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-6/Triangular.java)
+  - [**Knapsack**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Chapter-6/Knapsack)
   - Programming Practice
-    [**6.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/RecursiveMultiplication.java)
+    [**6.1**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-6/RecursiveMultiplication.java) [**6.2**] [**6.3**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-6/NumberPower.java) [**6.4**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-6/Knapsack/Knapsack_OneSolution.java) [**6.5**] 
 - [**Chapter-8**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-8)
   - [**Binary Tree Implementation**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-8/BinaryTreeImplementation.java)
 
