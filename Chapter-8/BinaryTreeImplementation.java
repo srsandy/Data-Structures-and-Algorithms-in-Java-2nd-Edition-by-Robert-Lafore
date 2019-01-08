@@ -195,6 +195,23 @@ class BinaryTree{
         postOrderPrint(root.right);
         System.out.print(root.data + " | ");
     }
+    
+    //Height of the Tree
+    public int height(Node root) {
+        if (root == null)
+           return 0;
+        else {
+            /* compute  height of each subtree */
+            int lheight = height(root.left);
+            int rheight = height(root.right);
+
+            /* use the larger one */
+            if (lheight > rheight)
+                return(lheight + 1);
+            else return(rheight + 1);
+        }
+    }
+    
 }
 public class BinaryTreeImplementation{
     public static void main(String[] args){
