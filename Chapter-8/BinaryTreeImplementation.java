@@ -216,7 +216,7 @@ class BinaryTree{
 public class BinaryTreeImplementation{
     public static void main(String[] args){
 
-        int[] nodes = {13, 4, 9, 6, 23, 27, 21, 22, 15, 2, 3, 7};
+        int[] nodes = {13, 4, 9, 6, 23, 27, 21, 22, 15, 3, 2, 7};
         BinaryTree bst = new BinaryTree();
 
 
