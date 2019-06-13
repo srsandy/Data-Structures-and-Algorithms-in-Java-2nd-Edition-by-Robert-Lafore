@@ -167,7 +167,12 @@ class BinaryTree{
 
     }
 
-
+    public int countNodes(Node root) {
+    	if(root == null) 
+    		return 0;
+        
+    	return countNodes(root.left) + 1 + countNodes(root.right);
+    }
 
     public void inOrderPrint(Node root){
         if(root == null)
