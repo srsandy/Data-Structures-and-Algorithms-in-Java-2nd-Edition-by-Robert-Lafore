@@ -197,6 +197,28 @@ class BinaryTree{
         System.out.print(root.data + " | ");
     }
     
+     public void levelOrderPrint(Node root) {
+    	Queue<Node> q = new LinkedList<>(); 
+    	
+    	if(root == null) {
+    		return;
+    	}
+    	
+    	q.add(root);
+    	Node temp = q.peek();
+    	while(q.size() > 0) {
+    		System.out.print(temp.data + " | ");
+    		if(temp.left != null)
+    			q.add(temp.left);
+
+    		if(temp.right != null)
+    			q.add(temp.right);
+    		
+    		q.remove();
+    		temp = q.peek();
+    	}
+    }
+    
     //Height of the Tree
     public int height(Node root) {
         if (root == null)
@@ -248,6 +270,11 @@ public class BinaryTreeImplementation{
         System.out.println();
         System.out.println("::__Post Order Traversal__::");
         bst.postOrderPrint(bst.getRoot());
+        System.out.println();
+        
+        System.out.println();
+        System.out.println("::__Level Order Traversal__::");
+        bst.levelOrderPrint(bst.getRoot());
         System.out.println();
 
 
