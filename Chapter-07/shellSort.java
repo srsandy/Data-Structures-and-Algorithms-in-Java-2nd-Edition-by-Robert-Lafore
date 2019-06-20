@@ -1,52 +1,72 @@
 /*
-Shellsort is based on the insertion sort.
-
-Here’s the problem with the insertion sort. Suppose a small item is on the far right, where the large items should be. 
-To move this small item to its proper place on the left, all the intervening items (between the place where it 
-is and where it should be) must be shifted one space right. This step takes close to N copies, just for one item. 
-Not all the items must be moved a full N spaces, but the average item must be moved N/2 spaces, which takes N times 
-N/2 shifts for a total of (N^2)/2 copies. Thus, the performance of insertion sort is O(N^2)
+    Solved By: Sandeep Ranjan (1641012352)
 */
 
-class Shell
-{ 
-    static void printArray(int arr[]) 
-    { 
-        int n = arr.length; 
-        for (int i=0; i<n; ++i) 
-            System.out.print(arr[i] + " "); 
-        System.out.println(); 
-    } 
+class ArrayShell {
+	private int[] a;
+	private int nElems;
 
-    int sort(int arr[]) 
-    { 
-        int n = arr.length; 
-  
-        for (int gap = n/2; gap > 0; gap /= 2) 
-        { 
-            for (int i = gap; i < n; i += 1) 
-            { 
-                int temp = arr[i]; 
-                int j; 
-                for (j = i; j >= gap && arr[j - gap] > temp; j -= gap) 
-                    arr[j] = arr[j - gap]; 
- 
-                arr[j] = temp; 
-            } 
-        } 
-        return 0; 
-    } 
+	public ArrayShell(int max) {
+		a = new int[max];
+		nElems = 0;
+	}
 
-    public static void main(String args[]) 
-    { 
-        int arr[] = {12, 34, 54, 2, 3}; 
-        System.out.println("Array before sorting"); 
-        printArray(arr); 
-  
-        ShellSort ob = new ShellSort(); 
-        ob.sort(arr); 
-  
-        System.out.println("Array after sorting"); 
-        printArray(arr); 
-    } 
+	public void insert(int value) {
+		a[nElems] = value;
+		nElems++;
+	}
+
+	public void display() {
+		for(int j=0; j<nElems; j++)
+			System.out.print(a[j] + " "); 
+		System.out.println("");
+	}
+
+	public void shellSort() {
+		// Knuth’s Interval Sequence
+		int h = 1;
+		while(h <= nElems/3)
+			h = h*3 + 1;
+
+		while(h > 0) {
+			for(int out=h; out<nElems; out++) {
+				int temp = a[out];
+				int in = out;
+
+				while(in > h-1 && a[in - h] >= temp) {
+					a[in] = a[in-h]; 
+					in -= h;
+				}
+
+				a[in] = temp;
+			}
+
+			// Reducing Knuth’s
+			h = (h-1) / 3;
+		}
+
+		return;
+	}
+}
+
+class ShellSort {
+	public static void main(String[] args) {
+		int maxSize = 11;
+		ArrayShell arr = new ArrayShell(maxSize);
+
+		arr.insert(77);
+		arr.insert(99);
+		arr.insert(44);
+		arr.insert(55);
+		arr.insert(22);
+		arr.insert(88);
+		arr.insert(11);
+		arr.insert(00);
+		arr.insert(66);
+		arr.insert(33);
+
+		arr.shellSort();
+		arr.display();
+
+	}
 }
