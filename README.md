@@ -61,7 +61,7 @@ Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafo
 - Don't forget to Start and Watch the repo 
 
 ## Contributing
-Feel free to contribute .. :D
+Feel free to contribute .. :smile:
 
 1. Fork it!
 2. Commit.
