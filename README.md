@@ -52,6 +52,7 @@ Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafo
     
 - [**Chapter-07: Advance Sorting**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-07)
   - [**Shell Sort**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-07/shellSort.java)
+  - [**Partition Array**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-07/Partition.java)
 - [**Chapter-08: Binary Trees**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-08)
   - [**Binary Tree Implementation**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-8/BinaryTreeImplementation.java)
 
