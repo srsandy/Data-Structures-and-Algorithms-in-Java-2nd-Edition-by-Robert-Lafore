@@ -1,3 +1,7 @@
+/*
+	Solved by: Nagendra Singh (https://github.com/Nagendra1421)
+*/
+
 import java.io.*;  
 import java.util.*;  
      class Main {  
