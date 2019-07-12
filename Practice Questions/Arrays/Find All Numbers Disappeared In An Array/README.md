@@ -1,5 +1,6 @@
 # Find All Numbers Disappeared In An Array
-## Problem from LeetCode
+
+**Problem from LeetCode**
 
 Given an array of integers where `1 ≤ a[i] ≤ n` (**n** = size of array), some elements appear twice and others appear once.
 
