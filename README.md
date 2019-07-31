@@ -72,7 +72,7 @@ Feel free to contribute .. :smile:
 2. Commit.
 3. Push.
 5. Submit a pull request :slightly_smiling_face:
-6. Star, if you like it and find it useful
+6. Star, if you like & find it useful
 
 ## Requests, Improvements, Issues
 
