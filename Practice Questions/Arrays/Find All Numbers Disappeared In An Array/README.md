@@ -1,16 +1,14 @@
-Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array),
- some elements appear twice and others appear once.
+# Find All Numbers Disappeared In An Array
 
-Find all the elements of [1, n] inclusive that 
- do not appear in this array.
+**Problem from LeetCode**
 
-Could you do it without extra space and in O(n) runtime? 
- You may assume the returned list does not count as extra space.
+Given an array of integers where `1 ≤ a[i] ≤ n` (**n** = size of array), some elements appear twice and others appear once.
 
-Example:
+Find all the elements of `[1, n]` *inclusive* that do not appear in this array.
 
-Input:
-[4,3,2,7,8,2,3,1]
+Could you do it without extra space and in **`O(n)`** runtime? You may assume the returned list does not count as extra space.
 
-Output:
-[5,6]
+### Example:
+**Input** : `[4,3,2,7,8,2,3,1]`
+
+**Output:** : `[5,6]`
