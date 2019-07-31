@@ -6,7 +6,7 @@ Data Structures and Algorithms in Java
 
 Solutions of [**Data Structures & Algorithms in Java" 2nd Edition by Robert Lafore**](data_structures_and_algorithms_in_javatqw_darksiderg.pdf)
 
-Other Practice Question : [*here*](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/ImportantQuestions.md)
+Other Practice Problems : [*here*](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Questions)
 
 # Index
   - [**Chapter-02: Arrays**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-02)
