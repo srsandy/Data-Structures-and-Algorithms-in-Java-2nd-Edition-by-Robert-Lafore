@@ -8,7 +8,7 @@ class HollowRhombus {
             int j;    
 
             for(j = rows; j> i; j--) { 
-                System.out.print("  ");
+                System.out.print(" ");
             }
 
             for(j=0; j<rows; j++) {
