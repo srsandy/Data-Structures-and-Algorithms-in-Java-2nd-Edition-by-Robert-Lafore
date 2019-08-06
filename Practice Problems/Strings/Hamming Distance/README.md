@@ -6,12 +6,12 @@ The hamming distance between two strings of equal length is the number of positi
 **Input** : 
 
   ``` java
-    str1 = "karolin"; 
-    str2 = "kerstin";
+str1 = "karolin"; 
+str2 = "kerstin";
    ``` 
    
 **Output:** : 
 
   ``` java
-   Hamming Distance = 3
+Hamming Distance = 3
    ```
