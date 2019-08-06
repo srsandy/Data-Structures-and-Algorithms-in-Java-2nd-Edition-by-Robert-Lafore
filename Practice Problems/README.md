@@ -3,6 +3,6 @@ All questions added here are taken from various sites like GeeksForGeeks, LeetCo
 
 ## Topics 
  - [Arrays](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays)
- - Strings
+ - [Strings](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Strings)
  - [Patterns](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Patterns)
  - [Maths](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Maths)
