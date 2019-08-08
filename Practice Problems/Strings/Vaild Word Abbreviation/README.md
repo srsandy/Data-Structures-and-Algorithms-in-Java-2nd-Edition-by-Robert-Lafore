@@ -1,4 +1,4 @@
-# Valid Word Abberviation
+# Valid Word Abbreviation
 
 **Problem from LeetCode**
 
