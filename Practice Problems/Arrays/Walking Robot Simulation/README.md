@@ -1,4 +1,4 @@
-# Arrays
+# Walking Robot Simulation
 
 **Problem from LeetCode**
 
