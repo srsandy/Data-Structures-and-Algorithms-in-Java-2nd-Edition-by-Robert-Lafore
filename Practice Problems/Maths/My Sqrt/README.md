@@ -10,13 +10,15 @@ Since the return type is an integer, the decimal digits are truncated and only t
 
 ### Example:
 
-1)
+*E.g - 1*
+
 **Input** : `4`
 
 **Output:** : `2`
 
 
-2)
+*E.g - 2*
+
 **Input** : `8`
 
 **Output:** : `2`
