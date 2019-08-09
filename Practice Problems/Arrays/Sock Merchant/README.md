@@ -1,4 +1,4 @@
-# Arrays
+# Sock Merchant
 
 **Problem from Hackerrank**
 
