@@ -58,6 +58,7 @@ Other Practice Problems : [*here*](https://github.com/srsandy/Data-Structures-an
 - [**Chapter-07: Advance Sorting**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-07)
   - [**Shell Sort**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-07/shellSort.java)
   - [**Partition Array**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-07/Partition.java)
+  - [**Quick Sort**](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/blob/master/Chapter-07/QuickSort.java)
 - [**Chapter-08: Binary Trees**](https://github.com/srsandy/DSA-in-JAVA/tree/master/Chapter-08)
   - [**Binary Tree Implementation**](https://github.com/srsandy/DSA-in-JAVA/blob/master/Chapter-08/BinaryTreeImplementation.java)
 
