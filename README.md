@@ -72,8 +72,7 @@ Feel free to contribute .. :smile:
 1. Fork it!
 2. Commit.
 3. Push.
-5. Submit a pull request :slightly_smiling_face:
-6. Star, if you like & find it useful
+4. Submit a pull request :slightly_smiling_face:
 
 ## Requests, Improvements, Issues
 
