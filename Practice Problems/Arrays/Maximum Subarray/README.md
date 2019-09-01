@@ -9,4 +9,4 @@ Write an efficient program to find the sum of contiguous subarray within a one-d
 
 **Output:**: `7`
 
-**Explanation**: The contiguous subarray `[4, -1, -1, 1, 5]` has the largest sum = `6`.
+**Explanation**: The contiguous subarray `[4, -1, -2, 1, 5]` has the largest sum = `7`.
