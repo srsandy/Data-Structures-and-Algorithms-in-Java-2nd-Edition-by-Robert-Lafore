@@ -1,0 +1,2 @@
+Max Points on a line
+This is a very nice question which doesn't only contain the concept of slopes and straight lines, but also contains some small but tricky mathematical concepts to be taken care of which normally is not visible. 
