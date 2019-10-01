@@ -17,7 +17,7 @@ class ArrayQuick {
 	}
 
 	public void display() {
-		for(int j=0; j<nElems; j++)
+		for(int j=0; j<nElems; j+=1) 
 			System.out.print(arr[j] + " "); 
 		System.out.println("");
 	}
