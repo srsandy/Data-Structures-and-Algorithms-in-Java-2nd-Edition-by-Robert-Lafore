@@ -6,7 +6,7 @@ class Triangular {
 	public static void main(String[] args) {
 		final int TNO = 5;
 
-		System.out.println(TNO + " Triangular is " + triangle(TNO));
+		System.out.print(TNO + " Triangular is " + triangle(TNO));
 	}
 
 	public static int triangle(int n){
