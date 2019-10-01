@@ -78,3 +78,75 @@ Feel free to contribute .. :smile:
 
 If you found a mistake, or want improvemenents are needed feel free to submit [**a new issue**](https://github.com/srsandy/DSA-in-JAVA/issues).
 
+DSA-in-JAVA
+Data Structures and Algorithms in Java
+
+GitHub forks   GitHub stars
+
+Solutions of Data Structures & Algorithms in Java" 2nd Edition by Robert Lafore
+
+Other Practice Problems : here
+
+Index
+Chapter-02: Arrays
+
+LowArray
+HighArray
+OrderedArray
+Programming Practice 2.1 2.2 2.3 2.4 2.5 2.6
+Chapter-03: Simple Sorting
+
+Bubble Sort
+Insertion Sort
+Selection Sort
+Programming Practice 3.1 3.2 3.3 3.4 3.5 3.6
+Chapter-04: Stack and Queue
+
+Stack
+Reversing a Word
+Delimiter Matching
+Queue
+Circular Queue
+Deque
+Priority Queues
+Infix to Postfix
+Programming Practice 4.1 4.2 4.3 4.4 4.5
+Chapter-05: Linked List
+
+Linked List
+Double-Ended List
+Sorted List
+Doubly Linked List
+Reverse DoubleLinkedList
+Programming Practice 5.1 5.2 5.3 5.4 5.5 5.6
+Chapter-06: Recursion
+
+Anagrams
+BinarySearch
+Factorial
+Mergesort
+Tower of Hanoni
+Triangular Number
+Knapsack
+Programming Practice 6.1 [6.2] 6.3 6.4 [6.5]
+Chapter-07: Advance Sorting
+
+Shell Sort
+Partition Array
+Quick Sort
+Chapter-08: Binary Trees
+
+Binary Tree Implementation
+You like it ?
+Don't forget to Start and Watch the repo
+Contributing
+Feel free to contribute .. smile
+
+Fork it!
+Commit.
+Push.
+Submit a pull request slightly_smiling_face
+Requests, Improvements, Issues
+If you found a mistake, or want improvemenents are needed feel free to submit a new issue.
+
+© 2019 GitHub, Inc.
