@@ -27,7 +27,7 @@ class SegmentTree
     
     int getMid(int s,int e)
     {
-		  return s + (e - s)/2;
+		  return (s + (e - s)/2);
     }
     
     int max(int a,int b)
