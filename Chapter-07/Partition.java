@@ -1,5 +1,9 @@
 /*
     Solved By: Sandeep Ranjan (1641012352)
+    Modified By: Siddhart Saurabh 
+    
+    Solution for Programming Projects
+	7.1,
 */
 
 class ArrayPart {
@@ -40,6 +44,26 @@ class ArrayPart {
 		
 		return left;
 	}
+	
+	// 7.1
+	public int partitionIt(int left, int right) {
+    		int pivot = a[right]; 
+	 	int leftPtr = left - 1;
+	    	int rightPtr = right;
+
+    		while(true) {
+      			while(a[++leftPtr] < pivot);
+
+        		while(rightPtr > left && a[--rightPtr] > pivot);
+			if(leftPtr >= rightPtr)
+        			break;
+      			else
+        		swap(leftPtr, rightPtr);
+		}  
+		
+    		swap(leftPtr, right);
+	    	return leftPtr; 
+  	}
 
 	private void swap(int i, int j){
 		int temp = a[i];
