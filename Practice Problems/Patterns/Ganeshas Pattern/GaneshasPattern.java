@@ -1,5 +1,3 @@
-package Challenge1__FundamentalsAndPatterns;
-
 import java.util.Scanner;
 public class GaneshasPattern {
     public static void main(String[] args) {
