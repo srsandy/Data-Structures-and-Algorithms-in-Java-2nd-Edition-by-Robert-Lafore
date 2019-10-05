@@ -1,6 +1,6 @@
-# Reverse LinkedList
+# Find middle of LinkedList
 
-Reverse a singly linked list
+Find middle of a singly linked list
 
 ### Example:
 **Input** : 
@@ -12,5 +12,5 @@ Reverse a singly linked list
 **Output:** : 
 
   ``` java
-5->4->3->2->1->NULL
+3
    ```
