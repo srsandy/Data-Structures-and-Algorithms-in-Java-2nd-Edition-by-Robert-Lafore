@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class MaximumArea {
+public class MaximumAreaHistogram {
     
     public static void main(String[] args){
         int hist[] = {2, 1, 4, 5, 1, 3, 3};
