@@ -16,20 +16,30 @@ How many possible unique paths are there?
 ### Examples:
 
 #### 1
-```java
-**Input** :  m = 3, n = 2
 
-**Output:** : 3
+**Input** : 
+```java 
+m = 3, n = 2
+```
+
+**Output:** : 
+```java 
+3
 ```
 **Explanation** :
 From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
-    1. Right -> Right -> Down
-    2. Right -> Down -> Right
-    3. Down -> Right -> Right
+1. Right -> Right -> Down
+2. Right -> Down -> Right
+3. Down -> Right -> Right
 
-#### 4
+#### 2
+
+**Input** : 
 ```java
-**Input** : m = 7, n = 3
+m = 7, n = 3
+```
 
-**Output:** : 28
+**Output:** : 
+```java
+28
 ```
