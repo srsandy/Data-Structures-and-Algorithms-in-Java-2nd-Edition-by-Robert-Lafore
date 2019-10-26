@@ -1,5 +1,3 @@
-import java.util.Stack;
-
 public class UniquePaths {
 
     static int[][] paths = new int[101][101];
