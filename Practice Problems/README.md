@@ -3,7 +3,7 @@ All questions added here are taken from various sites like GeeksForGeeks, LeetCo
 
 ## Topics 
  - [Arrays](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays)
- - [Backtacking](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Backtacking)
+ - [Backtracking](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Backtracking)
  - [BinarySearch](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/BinarySearch)
  - [Dynamic Programming](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Dynamic%20Programming)
  - [LinkedList](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/LinkedList)
