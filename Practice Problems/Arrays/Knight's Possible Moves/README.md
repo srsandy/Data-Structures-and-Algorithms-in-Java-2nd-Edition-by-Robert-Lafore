@@ -1,23 +1,29 @@
-# Product Array
+# Knight's Possible Moves
 
-**Problem from PrepBytes**
+**Problem from GeekForGeeks**
 
-Given an array of `n` integers, construct a Product Array `prod[]`  such that prod[i] is equal to the product of all the elements of arr[] except arr[i]. 
+Given a chess board of dimension `m * n`. Find number of possible moves where knight can be moved on a chessboard from given position. If `board[i][j] = 1` then the block is filled by something else, otherwise empty.
 
-Solve it without **division operator** and in `O(n)``
+Assume that board consist of all pieces of same color, i.e., there are no blocks being attacked.. 
+
+Solve it without **division operator** and in `O(n)`
 
 ### **Example**
 
 **Input**: 
 
 ``` java
-    arr[] = {10, 3, 5, 6, 2}
+    board[][] = {{1, 0, 1, 0},
+                   {0, 1, 1, 1},
+                   {1, 1, 0, 1},
+                   {0, 1, 1, 1}}
+        pos = (2, 2)
 ```
    
 **Output:**: 
 
 ``` java
-   prod[] = {180, 600, 360, 300, 900}
+   4
 ```
 
 
