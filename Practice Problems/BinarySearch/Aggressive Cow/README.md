@@ -26,7 +26,7 @@ For each test case output one integer: the largest minimum distance.
   9
 ```
 
-**Output:** : 
+**Output** : 
 ```java
   3
 ```
