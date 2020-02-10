@@ -10,3 +10,4 @@ All questions added here are taken from various sites like GeeksForGeeks, LeetCo
 - [Power x To n](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Maths/Power%20x%20To%20n)
 - [Reach A Number](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Maths/Reach%20A%20Number)
 - [Reduce Substracted Form](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Maths/Reduced%20Subtracted%20Form)
+- [The 3n + 1 problem](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Maths/The%203n%20%2B%201%20problem)
