@@ -19,7 +19,7 @@ where `a` and `b` are block numbers, puts block `a` onto block `b` after returni
 - *move `a` over `b`* <br />
 where `a` and `b` are block numbers, puts block `a` onto the top of the stack containing block `b`, after returning any blocks that are stacked on top of block `a` to their initial positions.
 
-- *pile `a` onto `b* <br />
+- *pile `a` onto `b`* <br />
 where `a` and `b` are block numbers, moves the pile of blocks consisting of block `a`, and any blocksthat are stacked above block `a`, onto block `b`. All blocks on top of block `b` are moved to their initial positions prior to the pile taking place. The blocks stacked above block `a` retain their order when moved.
 
 - *pile `a` over `b`* <br />
@@ -42,7 +42,7 @@ The output should consist of the final state of the blocks world. Each original 
 **Input**: 
 
 ``` java
-    10
+10
 move 9 onto 1
 move 8 over 1
 move 7 over 1
