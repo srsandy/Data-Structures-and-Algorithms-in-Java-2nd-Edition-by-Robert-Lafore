@@ -6,7 +6,9 @@ Given two strings `A` and `B` of lowercase letters, return true if and only if w
 
 ## Note:
 `0 <= A.length <= 20000`
+
 `0 <= B.length <= 20000`
+
 `A` and `B` consist only of lowercase letters.
 
 
