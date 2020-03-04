@@ -6,7 +6,6 @@ class ReverseInParentheses {
 
         int start = 0;
         int end = s.length() - 1;
-        str.setLength(0);
     
         if (s.contains("(")) {
             start = s.lastIndexOf("(");
