@@ -4,7 +4,7 @@ Data Structures and Algorithms in Java
 ![GitHub forks](https://img.shields.io/github/forks/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore.svg?color=green&style=social) &nbsp;
 ![GitHub stars](https://img.shields.io/github/stars/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore.svg?style=social)
 
-Solutions of **Data Structures & Algorithms in Java" 2nd Edition by Robert Lafore** [**Buy here**](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539/ref=sr_1_2?keywords=Data+Structures+%26+Algorithms+in+Java%22+2nd+Edition+by+Robert+Lafore&qid=1583406332&sr=8-2)
+Solutions of **Data Structures & Algorithms in Java 2nd Edition by Robert Lafore** [**Buy here**](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539/ref=sr_1_2?keywords=Data+Structures+%26+Algorithms+in+Java%22+2nd+Edition+by+Robert+Lafore&qid=1583406332&sr=8-2)
 
 Other Practice Problems : [*here*](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems)
 
