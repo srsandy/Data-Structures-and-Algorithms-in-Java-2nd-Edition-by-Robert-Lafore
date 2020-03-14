@@ -8,11 +8,6 @@ Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be valid
  2. Each column must contain the digits `1-9` without repetition.
  3. Each of the 9 `3x3` sub-boxes of the grid must contain the digits `1-9`without repetition
 
-<center>
-![250px-Sudoku-by-L2G-20050714 svg](https://user-images.githubusercontent.com/21126403/76684721-59d9cd00-6634-11ea-913c-056580294091.png)
-<center>
-
-
 The Sudoku board could be partially filled, where empty cells are filled with the character `'.'`.
 
 **Note**:
