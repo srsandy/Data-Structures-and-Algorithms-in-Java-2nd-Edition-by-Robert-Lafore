@@ -11,4 +11,5 @@ All questions added here are taken from various sites like GeeksForGeeks, LeetCo
 - [Square Diagonals](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Square%20Diagonals)
 - [The Block Problem](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/The%20Block%20Problem)
 - [Two Sum](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Two%20Sum)
+- - [Two Sum](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Valid%20Sudoku)
 - [Walking Robot Simulation](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Walking%20Robot%20Simulation)
