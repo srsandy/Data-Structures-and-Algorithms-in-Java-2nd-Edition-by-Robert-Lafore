@@ -1,5 +1,7 @@
 # ZSUM - Just add it
 
+**Problem from SPOJ**
+
 For two given integers `n` and `k` find  Z<sub>n</sub> + Z<sub>n-1</sub> - 2Z<sub>n-2</sub> mod 10000007 , where Z<sub>n</sub> = S<sub>n</sub> + P<sub>n</sub> and S<sub>n</sub> = 1<sup>k</sup> + 2<sup>k</sup> + 3<sup>k</sup> + … + n<sup>k</sup> and P<sub>n</sub> = 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + … + n<sup>n</sup>.
 
 ## Input
