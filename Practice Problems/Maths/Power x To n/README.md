@@ -10,7 +10,7 @@ Implement pow(x, n).
     n = 2;
 ```
 
-**Output:** : 
+**Output** : 
 ```java
     4
 ```
