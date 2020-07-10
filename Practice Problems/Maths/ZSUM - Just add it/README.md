@@ -25,7 +25,7 @@ For each case print the asked value in separate line.
     0 0
 ```
 
-**Output:** : 
+**Output** : 
 ```java
     4835897
     2118762
