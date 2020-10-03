@@ -22,3 +22,16 @@ we love icecream and man go
 we love icecream and mango 
 ```
 
+#### 2
+
+**Input** :
+```java
+dictionary = ["i", "like", "sam", "sung", "samsung", "mobile", "ice", "and", "cream", "icecream", "man", "go", "mango"]
+sentence = "ilikesamsungmobile"
+```
+
+**Output:** :
+```java
+i like sam sung mobile
+i like samsung mobile
+```
