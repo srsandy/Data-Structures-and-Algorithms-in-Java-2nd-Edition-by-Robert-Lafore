@@ -1,5 +1,3 @@
-package challengesArray;
-
 import java.util.Scanner;
 
 public class MaximumCircularSum {
