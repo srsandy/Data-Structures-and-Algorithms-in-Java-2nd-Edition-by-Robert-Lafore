@@ -24,6 +24,9 @@ Sample Input
 5
 Sample Output
 
+
+
+Sample Output
  5 4 3 2 1 0 1 2 3 4 5
    4 3 2 1 0 1 2 3 4 
      3 2 1 0 1 2 3 
@@ -35,3 +38,4 @@ Sample Output
      3 2 1 0 1 2 3 
    4 3 2 1 0 1 2 3 4 
  5 4 3 2 1 0 1 2 3 4 5
+
