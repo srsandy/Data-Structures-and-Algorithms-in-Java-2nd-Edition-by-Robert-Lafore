@@ -41,5 +41,6 @@ Complexity Analysis:
 
 Time Complexity: O(2^(n^2)).
 The recursion can run upperbound 2^(n^2) times.
+
 Space Complexity: O(n^2).
 Output matrix is required so an extra space of size n*n is needed.
