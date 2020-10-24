@@ -73,8 +73,8 @@ Other Practice Problems : [*here*](https://github.com/srsandy/Data-Structures-an
 Feel free to contribute .. :smile:
 
 1. Fork it!
-2. Commit.
-3. Push.
+2. Commit
+3. Push
 4. Submit a pull request :slightly_smiling_face:
 
 ## Requests, Improvements, Issues
