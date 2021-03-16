@@ -6,6 +6,7 @@ All questions added here are taken from various sites like GeeksForGeeks, LeetCo
 
 - [ A Very Big Sum](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/A%20Very%20Big%20Sum)
 - [Arrange Students](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Arrange%20Students)
+- [Breaking The Records](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Breaking%20The%20Records)
 - [Find All Numbers Disappeared In An Array](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Find%20All%20Numbers%20Disappeared%20In%20An%20Array)
 - [Knight's Possible Moves](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Knight's%20Possible%20Moves)
 - [Maximum Subarray](https://github.com/srsandy/Data-Structures-and-Algorithms-in-Java-2nd-Edition-by-Robert-Lafore/tree/master/Practice%20Problems/Arrays/Maximum%20Subarray)
